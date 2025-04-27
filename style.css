@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Delius&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+body{
+    background: white;
+    padding: 0;
+    margin: 0;
+    font-family: 'Brush Script MT', cursive;
+}
+
+header{
+    background: #464444;
+    height: 100px;
+    position: fixed;
+    width: 100%;
+    margin : 0;
+    padding: 0;
+}
+
+header h1{
+    color: #cddbf8;
+    margin : 0;
+    padding: 0;
+    padding-top: 15px;
+    padding-left: 20px;
+    font-size: 50px;
+    font-family: 'delius', cursive;
+}
+
+.container{
+    color: #e8fff1;
+    width: 100%;
+    height: 84.5vh;
+    margin: 0;
+    padding:0;
+    padding-top: 100px;
+    background-image: url("https://wallpapercave.com/wp/wc1706622.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 40px;
+    margin: 25px 0 0 150px;
+    padding: 5px 0 0 0;
+    background: #2b2b2b;
+    width: 75%;
+}
+
+.pfp {
+    border: black solid 1px;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 20px 20px 10px 100px;
+    display: block;
+    padding: 0;
+    transition: all 0.5s ease-in-out; 
+}
+
+.pfp:hover {
+    height: 420px;
+    width: 420px;
+    margin: 10px 10px 10px 90px;
+    background-color: #d6ebde;
+}
+
+.intro{
+    align-items: flex-start;
+    display: flex;
+    background: #838383;
+    width: 75%;
+    height: 440px;
+    margin: 0 0 0 150px;
+}
+
+.intro:hover{
+    background: #e8fff1;
+    color: #838383;
+}
+
+.name{
+    font-size: 60px;
+    font-family: monospace;
+    margin: 40px 0 0 0;
+    padding: 0;
+}
+
+.job{
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.breifing{
+    font-size: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0 0 30px 0;
+    padding: 0;
+}
+
+.work-btn{
+    background: #464444;
+    color: #cddbf8;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0 0 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.work-btn:hover{
+    background: #cddbf8;
+    color: #464444;
+    font-size: 50px;
+}
